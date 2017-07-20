@@ -5,7 +5,7 @@ var rdate = module.exports;
 rdate.roman = { M:1000, CM: 900, D:500, CD: 400, C: 100, XC: 90, L: 50, XL: 40, X: 10, IX: 9, V: 5, IV: 4, I:1};
 
 rdate.months = [
-  {"name": "Jour Complémentaire", "ename": "Complementary Day"},
+  {"name": "Jour Complémentaire", "sname": "Com", "ename": "Complementary Day"},
   {"name": "Vendémiaire", "sname": "Vend", "ename": "Vintage"},
   {"name": "Brumaire", "sname": "Bru", "ename": "Mist"},
   {"name": "Frimaire", "sname": "Fri", "ename": "Frost"},
