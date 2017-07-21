@@ -628,8 +628,18 @@ rdate.getString = function(date,mode){
   return dateString;
 };
 
-rdate.getArray = function(date,mode){
-
+rdate.getObject = function(date){
+  var obj = {};
+  var day = rdate.getDay(date);
+  var month = rdate.getMonth(date);
+  var year = rdate.getYear(date);
+  obj.month = Object.assign({},rdate.months[month]);
+  obj.month.number = month;
+  obj.day = Object.assign({},rdate.dayNames[month][(day-1)]);
+  obj.day.dname = rdate.days[(day-1)%10].name;
+  obj.day.number = day;
+  obj.year = { number: year, roman:rdate.toRoman(year)};
+  return obj;
 }
 
 Date.prototype.toRevolutionaryString = function(mode){
