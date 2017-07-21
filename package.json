@@ -1,6 +1,6 @@
 {
   "name": "repubdate",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Conversion and formatting of dates to the French Republican Calendar.",
   "main": "src/index.js",
   "directories": {
@@ -24,7 +24,7 @@
   "author": "Michael Correll",
   "license": "MIT",
   "dependencies": {
-    "d3-time": "^0.1.1"
+    "d3-time": "^1.0.7"
   },
   "devDependencies": {
     "chai": "^3.4.1",
