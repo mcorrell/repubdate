@@ -1,3 +1,3 @@
 var repubdate = require("./rdate.js");
 
-exports.RepubDate = repubdate;
+module.exports = repubdate;
