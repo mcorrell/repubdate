@@ -1,0 +1,38 @@
+{
+  "name": "repubdate",
+  "version": "1.0.0",
+  "description": "Conversion and formatting of dates to the French Republican Calendar.",
+  "main": "src/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test",
+    "cover": "nyc mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mcorrell/repubdate.git"
+  },
+  "keywords": [
+    "date",
+    "date-formatting",
+    "liberty",
+    "equality",
+    "fraternity"
+  ],
+  "author": "Michael Correll",
+  "license": "MIT",
+  "dependencies": {
+    "d3-time": "^0.1.1"
+  },
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "mocha": "^2.3.1",
+    "nyc": "^11.0.3"
+  },
+  "bugs": {
+    "url": "https://github.com/mcorrell/repubdate/issues"
+  },
+  "homepage": "https://github.com/mcorrell/repubdate#readme"
+}
