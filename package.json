@@ -1,6 +1,6 @@
 {
   "name": "repubdate",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Conversion and formatting of dates to the French Republican Calendar.",
   "main": "src/index.js",
   "directories": {
