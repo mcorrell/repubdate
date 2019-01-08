@@ -109,7 +109,7 @@ rdate.dayNames = [
     {"name": "Rouleau", "ename": "Roller"}
   ],
   [
-    {"name": "Raiponce", "ename": "Rmpion"},
+    {"name": "Raiponce", "ename": "Rampion"},
     {"name": "Turneps", "ename": "Turnip"},
     {"name": "Chicorée", "ename": "Chicory"},
     {"name": "Nèfle", "ename": "Medlar"},
@@ -602,7 +602,7 @@ rdate.getString = function(date,mode){
       else{
         dateString = rdate.getDayName(date) + " " + rdate.getDay(date)
         + " " + rdate.getMonthName(date) + ", year of the Republic "+
-        rdate.toRoman(rdate.getYear(date)) + ", the day of the " +
+        rdate.toRoman(rdate.getYear(date)) + ", the day of " +
         rdate.getCelebrant(date,"english");
       }
     break;
