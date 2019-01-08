@@ -546,7 +546,7 @@ rdate.getFirstDay = function(year){
 
 rdate.getDay = function(date){
   var daysElapsed = d3.timeDay.count(rdate.getFirstDay(rdate.getYear(date)),date);
-  return (daysElapsed+1)%30;
+  return (daysElapsed%30)+1;
 };
 
 rdate.getDayName = function(date,mode){
