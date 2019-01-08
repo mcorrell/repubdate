@@ -141,7 +141,7 @@ describe('rdate', function() {
     });
 
     it("should return an english verbose date string", function() {
-      assert.equal(rdate.getString(date,"english"),"Nonidi 9 Vendémiaire, year of the Republic II, the day of the Parsnip");
+      assert.equal(rdate.getString(date,"english"),"Nonidi 9 Vendémiaire, year of the Republic II, the day of Parsnip");
     });
 
     it("...which should handle supplemental days", function() {
